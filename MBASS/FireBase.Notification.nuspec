@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Firebase.Notification</id>
+    <version>1.0.0</version>
+    <title>Firebase.Notification</title>
+    <authors>Frank Arkhurst Odoom</authors>
+    <owners>Frank Arkhurst Odoom</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl>https://github.com/frankodoom/Firebase.Notification</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An asynchronous C# library for for sending Firebase push notifications</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Firebase .Net Notification Messaging </tags>
+  </metadata>
+</package>

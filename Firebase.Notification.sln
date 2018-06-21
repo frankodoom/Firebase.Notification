@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firebase.Notification", "MBASS\Firebase.Notification.csproj", "{93AE36C4-85C9-4D1F-B82F-0F291D3C5F2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93AE36C4-85C9-4D1F-B82F-0F291D3C5F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AE36C4-85C9-4D1F-B82F-0F291D3C5F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AE36C4-85C9-4D1F-B82F-0F291D3C5F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AE36C4-85C9-4D1F-B82F-0F291D3C5F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33F049A9-255F-4823-92DB-6C8A3D173053}
+	EndGlobalSection
+EndGlobal

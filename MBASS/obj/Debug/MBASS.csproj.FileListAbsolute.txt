@@ -1,0 +1,10 @@
+c:\users\devadmin\source\repos\MBASS\MBASS\bin\Debug\MBASS.exe.config
+c:\users\devadmin\source\repos\MBASS\MBASS\bin\Debug\MBASS.exe
+c:\users\devadmin\source\repos\MBASS\MBASS\bin\Debug\MBASS.pdb
+c:\users\devadmin\source\repos\MBASS\MBASS\obj\Debug\MBASS.csprojAssemblyReference.cache
+c:\users\devadmin\source\repos\MBASS\MBASS\obj\Debug\MBASS.csproj.CoreCompileInputs.cache
+c:\users\devadmin\source\repos\MBASS\MBASS\obj\Debug\MBASS.exe
+c:\users\devadmin\source\repos\MBASS\MBASS\obj\Debug\MBASS.pdb
+c:\users\devadmin\source\repos\MBASS\MBASS\bin\Debug\Newtonsoft.Json.dll
+c:\users\devadmin\source\repos\MBASS\MBASS\bin\Debug\Newtonsoft.Json.xml
+c:\users\devadmin\source\repos\MBASS\MBASS\obj\Debug\MBASS.csproj.CopyComplete
