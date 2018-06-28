@@ -1,0 +1,9 @@
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\bin\Debug\netstandard2.0\Firebase.Notification.Standard.deps.json
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\bin\Debug\netstandard2.0\Firebase.Notification.Standard.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\bin\Debug\netstandard2.0\Firebase.Notification.Standard.pdb
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.csprojAssemblyReference.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.csproj.CoreCompileInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.AssemblyInfoInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.AssemblyInfo.cs
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Notification.Standard.pdb

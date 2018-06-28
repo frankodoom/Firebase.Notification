@@ -3,12 +3,13 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Firebase.Network.Standard
 {
-    public class Firebase
+    public class Firebase : IDisposable
     {
             /// <summary>
             ///  This is your Firebase Server Key
@@ -20,13 +21,11 @@ namespace Firebase.Network.Standard
             /// </summary>
             /// <example>https://placeimg.com/250/250/nature</example>
             public string Icon { get; set; }
-
             public void Dispose()
             {
                 this.Dispose();
                 Console.ReadKey();
             }
-
             /// <summary>
             /// Send push notification to a specific device
             /// </summary>
@@ -46,9 +45,9 @@ namespace Firebase.Network.Standard
             {
                 using (var client = new HttpClient())
                 {
-                    client.DefaultRequestHeaders.Add("Cotent-Type", "application/json");
-                    client.DefaultRequestHeaders.Add("Authorization", $"key={ServerKey}");
-                    //create object data
+                    //client.DefaultRequestHeaders.Add("Content-Type", "application/json");
+                    //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Authorization", "key="+ServerKey);
+                    client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", $"key={ServerKey}");
                     var obj = new
                     {
                         to = Id,
@@ -67,15 +66,14 @@ namespace Firebase.Network.Standard
                     HttpResponseMessage response = await client.PostAsync("https://fcm.googleapis.com/fcm/send", data);
                     return response.StatusCode;
                 }
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Trace.WriteLine(ex.ToString());
                 return HttpStatusCode.BadRequest;
                 //throw;
             }
             }
-
             /// <summary>
             /// Send push notification to a specific device
             /// </summary>
@@ -95,8 +93,9 @@ namespace Firebase.Network.Standard
             {
                 using(var client = new HttpClient())
                 {
-                    client.DefaultRequestHeaders.Add("Cotent-Type","application/json");
-                    client.DefaultRequestHeaders.Add("Authorization", $"key={ServerKey}");
+                    client.DefaultRequestHeaders.Add("Content-Type","application/json");
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Authorization", $"key={ServerKey}");
+                   // client.DefaultRequestHeaders.Add("Authorization", "AAAAOfAsXa8:APA91bHLSOwyKivZ7w1Os_YQIbkKUH7TWqcdkdv5LZ0-DzluZnenFOMIxjdzdDPkv3QlF0iMK26gzi5_8R7zarWDeUlwDlez53x0KaIoJINRFAvJBsDZ1wOFA5MSLDADm1_G-TZyF2Lr");
 
                     //create object data
                     var obj = new
@@ -114,7 +113,7 @@ namespace Firebase.Network.Standard
                     string json = Newtonsoft.Json.JsonConvert.SerializeObject(obj);
                     // create an http string content
                     var data = new StringContent(json, Encoding.UTF8, "application/json");              
-                    HttpResponseMessage response = await client.PostAsync("https://fcm.googleapis.com/fcm/send",data);
+                    HttpResponseMessage response = await client.PostAsync("https://fcm.googleapis.com/fcm/send", data);
                     return response.StatusCode;                 
                 }
 

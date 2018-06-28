@@ -1,0 +1,14 @@
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Client.deps.json
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Client.runtimeconfig.json
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Client.runtimeconfig.dev.json
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Client.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Client.pdb
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Firebase.Notification.Standard.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\bin\Debug\netcoreapp2.1\Firebase.Notification.Standard.pdb
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.csprojAssemblyReference.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.csproj.CoreCompileInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfoInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfo.cs
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.csproj.CopyComplete
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Client\obj\Debug\netcoreapp2.1\Client.pdb
