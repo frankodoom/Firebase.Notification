@@ -1,0 +1,6 @@
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\bin\Debug\netstandard2.0\Firebase.Network.Standard.deps.json
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\bin\Debug\netstandard2.0\Firebase.Network.Standard.dll
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Network.Standard.csprojAssemblyReference.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Network.Standard.csproj.CoreCompileInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Network.Standard.AssemblyInfoInputs.cache
+C:\Users\Devadmin\source\repos\FIrebase.Notification\Firebase.Network.Standard\obj\Debug\netstandard2.0\Firebase.Network.Standard.AssemblyInfo.cs
