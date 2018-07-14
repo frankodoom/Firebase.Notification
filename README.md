@@ -13,7 +13,7 @@ static void Main(string[] args)
             using (var firebase = new Firebase())
             {
                 firebase.ServerKey = "Your Server Key";
-                var id = "{Your Device Id}";
+                var id = "Your Device Id";
                 firebase.PushNotifyAsync(id,"title","message").Wait();
                 Console.ReadLine();
             }               
@@ -30,8 +30,8 @@ static void Main(string[] args)
             using (var firebase = new Firebase())
             {
                 firebase.ServerKey = "Your Server Key";
-                var id = "string[] device Ids";
-                firebase.PushNotifyAsync(id,"Hello","World").Wait();
+                string[] id = " an array of Ids";
+                firebase.PushNotifyAsync(id,"title","message").Wait();
                 Console.ReadLine();
             }               
         }
