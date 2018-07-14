@@ -12,9 +12,9 @@ static void Main(string[] args)
         {
             using (var firebase = new Firebase())
             {
-                firebase.ServerKey = "{Your Server Key}";
+                firebase.ServerKey = "Your Server Key";
                 var id = "{Your Device Id}";
-                firebase.PushNotifyAsync(id,"Hello","World").Wait();
+                firebase.PushNotifyAsync(id,"title","message").Wait();
                 Console.ReadLine();
             }               
         }
