@@ -29,8 +29,8 @@ static void Main(string[] args)
         {
             using (var firebase = new Firebase())
             {
-                firebase.ServerKey = "{Your Server Key}";
-                var id = {"string[] of device Id's"};
+                firebase.ServerKey = "Your Server Key";
+                var id = "string[] device Ids";
                 firebase.PushNotifyAsync(id,"Hello","World").Wait();
                 Console.ReadLine();
             }               
